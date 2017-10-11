@@ -13,7 +13,6 @@ import com.facebook.react.bridge.JavaScriptModule;
 public class RCTBluetoothSerialPackage implements ReactPackage {
     static final String TAG = "BluetoothSerial";
 
-    @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new RCTBluetoothSerialModule(reactContext));
