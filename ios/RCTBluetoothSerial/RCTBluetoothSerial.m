@@ -449,4 +449,9 @@ RCT_EXPORT_METHOD(clear:(RCTPromiseResolveBlock)resolve)
     return peripheral;
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
 @end
